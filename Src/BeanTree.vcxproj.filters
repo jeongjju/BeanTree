@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Caret.cpp" />
+    <ClCompile Include="ConnectingLine.cpp" />
+    <ClCompile Include="DrawVisitor.cpp" />
+    <ClCompile Include="FindingForm.cpp" />
+    <ClCompile Include="Frame.cpp" />
+    <ClCompile Include="FrameIterator.cpp" />
+    <ClCompile Include="Image.cpp" />
+    <ClCompile Include="InformationForm.cpp" />
+    <ClCompile Include="InsertingImageForm.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MessageForm.cpp" />
+    <ClCompile Include="MindMap.cpp" />
+    <ClCompile Include="MindMapApp.cpp" />
+    <ClCompile Include="MindMapIterator.cpp" />
+    <ClCompile Include="MindMappingForm.cpp" />
+    <ClCompile Include="Scroll.cpp" />
+    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="Task.cpp" />
+    <ClCompile Include="TopicBox.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Array.h" />
+    <ClInclude Include="Caret.h" />
+    <ClInclude Include="ConnectingLine.h" />
+    <ClInclude Include="DrawVisitor.h" />
+    <ClInclude Include="FindingForm.h" />
+    <ClInclude Include="Frame.h" />
+    <ClInclude Include="FrameIterator.h" />
+    <ClInclude Include="Image.h" />
+    <ClInclude Include="InformationForm.h" />
+    <ClInclude Include="InsertingImageForm.h" />
+    <ClInclude Include="Iterator.h" />
+    <ClInclude Include="MessageForm.h" />
+    <ClInclude Include="MindMap.h" />
+    <ClInclude Include="MindMapApp.h" />
+    <ClInclude Include="MindMapIterator.h" />
+    <ClInclude Include="MindMappingForm.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Scroll.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="ShapeVisitor.h" />
+    <ClInclude Include="Stack.h" />
+    <ClInclude Include="Task.h" />
+    <ClInclude Include="TopicBox.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="빈트리 도움말.chm">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="빈트리 도움말.chw">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="BeanTree.aps">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="MindMap.dat">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="정보_저작권 정보.txt">
+      <Filter>resource</Filter>
+    </Text>
+    <Text Include="정보_프로그램 정보.txt">
+      <Filter>resource</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="resource">
+      <UniqueIdentifier>{4cc394fa-7cec-4bb6-bcad-5aaa8a74f2fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BeanTree.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

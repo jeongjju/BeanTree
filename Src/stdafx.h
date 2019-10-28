@@ -1,0 +1,11 @@
+#pragma once
+#include <string>
+#include <afxwin.h>
+#include <atlimage.h>
+#include <iostream>
+#include <afxdlgs.h>
+#include <afxcmn.h>
+#include <CommCtrl.h>
+#include <Windows.h>
+#include <imm.h>
+#include <tchar.h>
